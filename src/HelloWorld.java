@@ -1,14 +1,9 @@
 public class HelloWorld {
     public static void main(String[] args) {
-        Integer a=10;
-        if (a<20)
-        {
-            System.out.println("less");
+        Integer i = 0;
+        while (i <= 10) {
+            System.out.println(i);
+            i++;
         }
-        else
-        {
-            System.out.println("greater");
-        }
-
     }
 }
