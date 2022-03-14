@@ -1,13 +1,13 @@
 public class HelloWorld {
     public static void main(String[] args) {
         Integer a=10;
-        if (a%2==0)
+        if (a<20)
         {
-            System.out.println("even");
+            System.out.println("less");
         }
         else
         {
-            System.out.println("odd");
+            System.out.println("greater");
         }
 
     }
